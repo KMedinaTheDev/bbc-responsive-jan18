@@ -1,0 +1,231 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     font-family: 'Lato', sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+footer{
+  height:46px;
+  width: 100%;
+  background: linear-gradient(white, silver, black );
+  clear: both;
+}
+header{
+  height:40px;
+  width: 100%;
+  clear: both;
+  background: black;
+}
+html{
+  font-size: 10px;
+}
+li{
+  list-style: none;
+  font-size: 1.3rem;
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-weight: bold;
+  border-right: 1px solid white;
+}
+nav{
+  float: left;
+  width:90%;
+}
+.bottomThree{
+  height:300px;
+  width:100%;
+  margin-top: 3%;
+  float: left;
+}
+.bottomThree h1{
+  font-size: 2.3rem;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.bottomThree section{
+  height:240px;
+  width: 30%;
+  margin-top: .3%;
+  margin-left: 3%;
+  float: left;
+}
+.bottomTwo{
+  margin-top: .7%;
+}
+.fourSmall{
+  height:145px;
+  width:24%;
+  margin-left: 1%;
+  float: left;
+}
+.fourSmall h1 a{
+  text-align: left;
+  font-size: 1.3rem;
+}
+.germs{
+  background-image: url("cells.jpg");
+}
+.germs, .putinTrump{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero{
+  height:400px;
+  width: 100%;
+  background-color: gray;
+  float: left;
+}
+.hero h2{
+  padding: 0 0 .5% 3% ;
+  float: left;
+}
+.openofbad{
+  background-image: url("openofbad.jpg");
+}
+.oxford{
+  background-image: url("oxford.jpg");
+}
+.putinTrump{
+  background-image: url("tpleft.jpg");
+}
+.rtKnew{
+  background-image: url("rt.jpg");
+}
+section.logo{
+  height:40px;
+  width:10%;
+  background-image: url("bbclogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  border-right: 1px solid white;
+}
+.tpPoster{
+  background-image: url("tpposter.jpg");
+}
+.topTwo{
+  margin-top: 3%;
+}
+.trumpSpy{
+  height:300px;
+  width:45%;
+  margin: 3% 1% 3% -28%;
+  background-image: url("trumppoints.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+.trumpSpy a h1{
+  font-size: 2.5rem;
+  text-align: left;
+  padding: 29.5% 1% 0 2%;
+}
+.trumpSpy a h4{
+  font-size: 1.2rem;
+  padding: 0 3% 0 2%;
+  width: 93%;
+}
+.trumpSpy span{
+  padding-left: 2%;
+}
+
+.mobileOnly{
+  display: none;
+}
+
+#redHead{
+  color: rgba(250, 30, 90, 1);
+  font-weight: bold;
+}
+#blueHead{
+  color:blue;
+  font-weight: bold;
+
+}
+#blueHead, #redHead{
+
+  text-align: left;
+}
+#redHead{
+  color: rgba(250, 30, 90, 1);
+  font-weight: bold;
+}
+#redHead1{
+  color: rgba(250, 30, 90, 1);
+}
+
+/* ==  Mobile Responsive Display Media Query ==  */
+
+@media  only screen and (max-width:736px){
+    *{
+      margin: 0;
+    }
+    header{
+      height:80px;
+      width: 100%;
+      clear: both;
+    }
+
+    iframe{
+      height:200px;
+      width:100%;
+    }
+
+    li{
+      font-size: 1.2rem;
+    }
+
+    .bottomThree{
+      height:700px;
+      width: 100%;
+    }
+    .bottomTwo{
+    margin-top: 3%;
+    }
+    .bottomTwo, .topTwo{
+      height: 150px;
+      width:45%;
+    }
+    .hero{
+      height:600px;
+      width: 100%;
+    }
+    .mobileOnly{
+      display: inline-block;
+    }
+    nav{
+      width: 80%;
+      padding-top: 5%;
+      padding-left: 5%;
+    }
+    .noMobile{
+      display: none;
+    }
+    section.germs, section.putinTrump, section.tillerVid{
+      height:200px;
+      width:100%;
+      margin: 2% 0 2% 0;
+    }
+
+    section.logo{
+      height: 80px;
+      width:20%;
+    }
+
+
+    .trumpSpy{
+      height:200px;
+      width: 90%;
+      margin: 0;
+      margin-left: 2%;
+      margin-top: 3%;
+    }
+
+  }
